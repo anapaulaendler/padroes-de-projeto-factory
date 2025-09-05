@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        /* Atenção: sucesso de pagamento randomizado, por favor dar uma olhadinha nas factories */
+
         PagamentoService service = new PagamentoService();
         // Simular pagamento por cartão de crédito
         service.processarPagamento(new FactoryCartaoCredito(), 150.00);
