@@ -1,4 +1,4 @@
-public class FactoryCartaoCredito extends PagamentoFactory<PagamentoCartaoCredito> {
+public class FactoryCartaoCredito extends FactoryPagamento<PagamentoCartaoCredito> {
     private String _numeroCartao;
     private int _randomNum = (int)(Math.random() * 101);
 

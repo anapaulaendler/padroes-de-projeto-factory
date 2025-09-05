@@ -1,4 +1,4 @@
-public class FactoryCriptomoeda extends PagamentoFactory<PagamentoCriptomoeda> {
+public class FactoryCriptomoeda extends FactoryPagamento<PagamentoCriptomoeda> {
 
     @Override
     public PagamentoCriptomoeda criarPagamento() {

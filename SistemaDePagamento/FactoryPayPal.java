@@ -1,4 +1,4 @@
-public class FactoryPayPal extends PagamentoFactory<PagamentoPayPal> {
+public class FactoryPayPal extends FactoryPagamento<PagamentoPayPal> {
     private String _email;
     private int _randomNum = (int)(Math.random() * 101);
 
