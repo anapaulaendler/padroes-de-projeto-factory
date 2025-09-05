@@ -1,3 +1,2 @@
-public abstract class FactoryPagamento<T extends Pagamento> {
-    public abstract T criarPagamento();
+public abstract class FactoryPagamento<T extends Pagamento> implements IFactory<T> {
 }
